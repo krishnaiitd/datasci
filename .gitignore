@@ -51,4 +51,5 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
-
+#Removed the .idea file
+.idea
