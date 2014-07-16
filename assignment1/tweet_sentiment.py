@@ -17,7 +17,7 @@ def readTweetsText(fb, scores):
             wordList = text.encode('utf-8').lower().split()
             for value in wordList:
                  if value in scores.keys():
-                     sentiment = sentiment + scores[value]
+                     sentiment = sentiment + int(scores[value])
         tweetslist.append(sentiment)
     return tweetslist
 def main():
